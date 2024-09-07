@@ -12,6 +12,19 @@
         margin-right: 5px;
     }
 
+    .scrolling-element {
+        animation: scroll 5s infinite linear;
+      }
+      
+      @keyframes scroll {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(-100%);
+        }
+      }
+
     .navbar {
         display: flex;
         list-style: none;
